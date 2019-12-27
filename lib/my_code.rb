@@ -25,6 +25,6 @@ def reduce(source_array, starting_point = nil)
   total
 end
 
-puts "nil or nil = #{nil || nil}"
+puts "nil or nil = #{0 || false}"
 puts "False or true = #{false || true}"
 puts "nil or true = #{nil || true}"
