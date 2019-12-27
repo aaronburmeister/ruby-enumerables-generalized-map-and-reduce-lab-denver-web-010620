@@ -13,7 +13,7 @@ def reduce(source_array, starting_point = nil)
   if starting_point
     total = starting_point
   else
-    total = 0
+    total = source_array[0]
   end
   index = 0
   while index < source_array.length do
